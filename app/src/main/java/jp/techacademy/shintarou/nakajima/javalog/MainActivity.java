@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Human human = new Human("ももちゃん", 30);     // 名前を、年齢30歳で、humanのインスタンスを作る
+        Human human = new Human("ももちゃん", 30,"ブランドバック");     // 名前を、年齢30歳で、humanのインスタンスを作る
 
         human.say();  // ももちゃんがいいます（ログ出力）
         Log.d("javatest", "人の名前は" + human.name + "です。");
@@ -21,17 +21,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d("javatest", Human.to_jp + "のクラス変数です。");
 
         human.think();
-
-        Human human2 = new Human("yukiちゃん", 4);     // 名前を、年齢30歳で、human2のインスタンスを作る
-
-        human2.say();  // yukiちゃんがいいます（ログ出力）
-        Log.d("javatest", "人の名前は" + human2.name + "です。");
-        Log.d("javatest", "人の年齢は" + human2.age + "歳です。");
-
-        Human.introduce();
-        Log.d("javatest", Human.to_jp + "のクラス変数です。");
-
-        human2.think();
     }
 
 }
