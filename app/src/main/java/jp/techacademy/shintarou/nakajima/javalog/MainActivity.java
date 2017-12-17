@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
         Human human = new Human("ももちゃん", 30);     // 名前を、年齢30歳で、humanのインスタンスを作る
 
-        human.say();  // ももちゃんが吠えます（ログ出力）
+        human.say();  // ももちゃんがいいます（ログ出力）
         Log.d("javatest", "人の名前は" + human.name + "です。");
         Log.d("javatest", "人の年齢は" + human.age + "歳です。");
 
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         Human human2 = new Human("yukiちゃん", 4);     // 名前を、年齢30歳で、human2のインスタンスを作る
 
-        human2.say();  // yukiちゃんが吠えます（ログ出力）
+        human2.say();  // yukiちゃんがいいます（ログ出力）
         Log.d("javatest", "人の名前は" + human2.name + "です。");
         Log.d("javatest", "人の年齢は" + human2.age + "歳です。");
 
